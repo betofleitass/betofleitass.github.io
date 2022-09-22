@@ -79,7 +79,10 @@ img.icon-svg {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
     text-align: center;
     justify-content: center;
+    gap: 0.8em;
     padding-top: 2em;
 }
