@@ -1,10 +1,18 @@
 
-#  Landing page like LinkTree
+# 🚀 Landing page like LinkTree
 
 Simple landing page like LinkTree that contains my links. 
 Made with  HTML and CSS.
 
-## Contributing
+## 📷 Screenshots
+
+![Screenshot](./images/screenshot.png)
+
+
+## 🔥 Skills
+HTML, CSS, Git
+
+## 👐 Contributing
 
 Contributions are always welcome!
 
@@ -13,12 +21,7 @@ Contributions are always welcome!
 - Commit your changes: `git commit -m "feat: my new feature"`;
 - Push to your branch: `git push origin my-feature`.
 
-
-## 🛠 Skills
-HTML, CSS, Git
-
-
-## Run Locally
+## 💻 Run Locally
 
 Clone the project
 
@@ -40,24 +43,18 @@ Open with VSCode
 
 Customize the code.
 
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
-## Authors
+## 👦 Authors
 
 - [@betofleitass](https://www.github.com/betofleitass)
 
 
-## Acknowledgements
+## 🙌 Acknowledgements
  - [Takuya Matsuyama's](https://www.craftz.dog/) [video tutorial](https://www.youtube.com/watch?v=u71pHOyvBp0&ab_channel=devaslife)
  - [Markdown Editor](https://readme.so/es/editor)
  - [SVG Icons](https://uxwing.com/)
 
 
-## License
+## 📓 License
 
 This project is under [MIT License.](https://choosealicense.com/licenses/mit/)
 
