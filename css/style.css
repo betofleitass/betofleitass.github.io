@@ -39,3 +39,41 @@ div.header>h2 {
     padding-bottom: 0em;
     margin-bottom: 0em;
 }
+
+ul {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0em 1em;
+    width: 20em;
+}
+
+ul>li {
+    padding: 0.5em;
+    margin: 1.6em 0;
+    background-color: #4227ad;
+    border-radius: 10em;
+    border: 3px solid #4227ad;
+    box-shadow: #b9aee4 0px 0px 15px 0px;
+}
+
+ul>li>a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 1em;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+img.icon-svg {
+    width: 22px;
+    height: 22px;
+}
