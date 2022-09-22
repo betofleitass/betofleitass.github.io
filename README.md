@@ -4,7 +4,7 @@
 Simple landing page like LinkTree that contains my links. 
 Made with  HTML and CSS.
 
-![Live Demo](https://betofleitass.github.io/)
+[Live Demo](https://betofleitass.github.io/)
 
 ## 📷 Screenshots
 
