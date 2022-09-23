@@ -56,7 +56,17 @@ ul>li {
     background-color: #4227ad;
     border-radius: 10em;
     border: 3px solid #4227ad;
-    box-shadow: #b9aee4 0px 0px 15px 0px;
+    letter-spacing: 0.4px;
+    transition: 0.5s;
+    transition-property: box-shadow;
+}
+
+ul>li:hover {
+    box-shadow:
+        0 0 5px #4227ad,
+        0 0 20px #4227ad,
+        0 0 20px #4227ad,
+        0 0 20px #4227ad;
 }
 
 ul>li>a {
