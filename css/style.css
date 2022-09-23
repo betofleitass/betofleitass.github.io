@@ -7,6 +7,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header */
 div.header {
     margin-top: 2em;
     text-align: center;
@@ -40,6 +41,7 @@ div.header>h2 {
     margin-bottom: 0em;
 }
 
+/* Links */
 ul {
     box-sizing: border-box;
     list-style: none;
@@ -73,11 +75,13 @@ a {
     font-weight: bold;
 }
 
+/* Icons */
 img.icon-svg {
     width: 22px;
     height: 22px;
 }
 
+/* Footer */
 footer {
     display: flex;
     flex-direction: row;
