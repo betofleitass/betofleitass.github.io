@@ -54,6 +54,8 @@ Customize the code.
  - [Takuya Matsuyama's](https://www.craftz.dog/) [video tutorial](https://www.youtube.com/watch?v=u71pHOyvBp0&ab_channel=devaslife)
  - [Markdown Editor](https://readme.so/es/editor)
  - [SVG Icons](https://uxwing.com/)
+ - [CSS animations](https://uiverse.io/)
+ - [Background animation](https://www.vantajs.com/)
 
 
 ## 📓 License

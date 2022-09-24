@@ -1,12 +1,29 @@
-body,
-html {
+html,
+body {
     margin: 0;
     padding: 0;
     background: black;
+    background-size: cover;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#vanta {
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    position: relative;
+}
+
+/* Header */
 div.header {
     margin-top: 2em;
     text-align: center;
@@ -20,7 +37,7 @@ div.header>img {
     width: 6em;
     height: 6em;
     border-radius: 100%;
-    border: 3px solid #5439bf;
+    border: 2px solid #000000;
     box-shadow: #5439bf 0px 0px 30px 10px;
 }
 
@@ -40,6 +57,7 @@ div.header>h2 {
     margin-bottom: 0em;
 }
 
+/* Links */
 ul {
     box-sizing: border-box;
     list-style: none;
@@ -53,8 +71,18 @@ ul>li {
     margin: 1.6em 0;
     background-color: #4227ad;
     border-radius: 10em;
-    border: 3px solid #4227ad;
-    box-shadow: #b9aee4 0px 0px 15px 0px;
+    border: 3px solid rgb(84, 57, 191, 0.2);
+    letter-spacing: 0.4px;
+    transition: 0.5s;
+    transition-property: box-shadow;
+}
+
+ul>li:hover {
+    box-shadow:
+        0 0 5px #867fa3,
+        0 0 20px #4227ad,
+        0 0 20px #4227ad,
+        0 0 20px #a69dca;
 }
 
 ul>li>a {
@@ -73,11 +101,13 @@ a {
     font-weight: bold;
 }
 
+/* Icons */
 img.icon-svg {
     width: 22px;
     height: 22px;
 }
 
+/* Footer */
 footer {
     display: flex;
     flex-direction: row;
