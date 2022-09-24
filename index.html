@@ -8,9 +8,33 @@
     <meta name="description" content="Alberto Fleitas's links website.">
     <title>Alberto Fleitas</title>
     <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            VANTA.NET({
+                el: "#vanta",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                color: 0x7a5ef5,
+                backgroundColor: 0x0,
+                points: 5.00,
+                maxDistance: 20.00,
+                spacing: 20.00,
+                showDots: false
+            })
+        });
+
+    </script>
 </head>
 
 <body>
+    <div id="vanta"></div>
     <main>
         <div class="header">
             <img src="/images/photo.webp" alt="Alberto Fleita's Photo">
