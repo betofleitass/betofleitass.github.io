@@ -56,6 +56,7 @@ Customize the code.
  - [SVG Icons](https://uxwing.com/)
  - [CSS animations](https://uiverse.io/)
  - [Background animation](https://www.vantajs.com/)
+ - [Favicon generator](https://favicon.io/)
 
 
 ## 📓 License
