@@ -1,7 +1,7 @@
 
 # 🚀 Landing page like LinkTree
 
-Simple landing page like LinkTree that contains my links. 
+Landing page like LinkTree that contains my links. 
 Made with  HTML and CSS.
 
 [Live Demo](https://betofleitass.github.io/)
